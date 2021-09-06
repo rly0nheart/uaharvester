@@ -25,7 +25,11 @@ User-Agent information harvester
 *The target user agent should be put inside quote " " symbols*
 
 **Example**:
- > <code>$ python uaharvester.py "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/0.0.0.0 Safari/537.36 Edg/0.0.0.0"</code>
+ > <code>$ python uaharvester.py "Mozilla/5.0 (*this user agent is obviously not valid*) AppleWebKit/537.36 (KHTML, like Gecko) Safari/0.0.0.0 Safari/0.0.0.0"</code>
+ ![uaharvester_1](https://user-images.githubusercontent.com/74001397/132225176-6031a05a-8d04-40f1-922f-95372fd24ee4.jpg)
+
 
 **Note**:
-*You can add the --is-crawler flag to check if the user agent is a crawler or not*
+*You can add the  **--is-crawler**  flag to check if the user agent is a crawler or not*
+![uaharverster_2](https://user-images.githubusercontent.com/74001397/132225292-53522e6b-397e-4eba-a206-81cf23522bdf.jpg)
+
