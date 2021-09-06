@@ -1,7 +1,7 @@
 import random
 import requests
 import argparse
-from uaharvestr import *
+from uaharvester import *
 from resources.headers import user_agents
 from assets.colors import green, white, reset
 
